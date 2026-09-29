@@ -1,9 +1,9 @@
 package com.gustavo.curso.springboot.app.interceptor.springboot_interceptor.interceptors;
 
 import java.util.Random;
-import java.util.Date;
+/* import java.util.Date;
 import java.util.HashMap;
-import java.util.Map;
+import java.util.Map; */
 
 import org.jspecify.annotations.Nullable;
 import org.slf4j.Logger;
@@ -15,7 +15,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
-import tools.jackson.databind.ObjectMapper;
+/* import tools.jackson.databind.ObjectMapper; */
 
 @Component ("timeInterceptor")
 public class LoadingTimeInterceptor implements  HandlerInterceptor {
